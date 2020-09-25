@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: test
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://127.0.0.1:3306/crud?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8
+
+logging:
+  level:
+    com.study.crud: debug
